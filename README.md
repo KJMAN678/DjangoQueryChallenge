@@ -1,3 +1,11 @@
+### Django コマンド
+
+```sh
+$ uv venv && . .venv/bin/activate && uv pip install -U pip && uv pip sync requirements.txt
+$ uv run manage.py migrate && uv run manage.py createsuperuser --noinput
+$ uv run python manage.py show_sql
+```
+
 ### Devin
 
 - [Devin's Machine](https://app.devin.ai/workspace) でリポジトリ追加
